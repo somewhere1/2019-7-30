@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+  int N,NF;
+  sanf("%d",&N);
+  NF=Factorial(N);
+  if(NF)
+  printf("%d! = %d\n",N,NF)
+  else
+  printf("Invalid input!\n");
+}
+int Factorial(const int N)
+{
+   int n;
+   int sum=1,i;
+   n=N;
+   if(n<0)
+   return 0;
+   else 
+   for(i=1;i<n=;i<++)
+   {
+      sum *= i;
+   }
+   return sum;
+   
+}
