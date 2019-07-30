@@ -1,0 +1,19 @@
+int Count_Digit(cosnt int N,cosnt int D)
+{
+   int n;
+   if(N<0)
+      n=-N;
+   else 
+   n=N;
+   
+   if(D==0&&N==0)
+   return 1;
+   
+   int count =0;
+   while(n){
+    if(n%10==D)
+    count++;
+    n/=10;
+   }
+   return count;
+}
